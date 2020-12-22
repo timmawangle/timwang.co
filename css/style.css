@@ -540,7 +540,7 @@ img {
         transform: scale(1.2);
         position: relative;
         left: 13%;
-        top: 40px;
+        top:20px;
     }
 
     .container {
@@ -646,7 +646,7 @@ img {
 
 @media screen and (min-width: 1050px) {
     .intro {
-        height: 706px;
+        height: 600px;
     }
 
     .projects {
@@ -658,7 +658,7 @@ img {
     }
 
     .intro h2 {
-        padding-top: 212px;
+        padding-top: 150px;
         font-size: 60px;
     }
 
@@ -671,7 +671,7 @@ img {
         transform: scale(1.5);
         position: relative;
         left: 25%;
-        top: 100px;
+        top: 60px;
     }
 
     .container {
