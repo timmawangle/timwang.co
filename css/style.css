@@ -675,6 +675,7 @@ img {
     }
 
     .container {
+        margin: 0px 10% 0px;
         grid-template-columns: auto auto;
         grid-template-rows: auto;
     }
