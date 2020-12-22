@@ -136,7 +136,7 @@ header h1 {
     padding: 80px 10% 15px;
     color: rgb(54, 54, 54);
     font-size: 40px;
-    font-style: bold;
+    font-weight: 500;
 }
 
 .intro p {
@@ -160,6 +160,7 @@ header h1 {
 
 .intro p b {
     color: cornflowerblue;
+    font-weight: 500;
 }
 
 .more_buttons {
