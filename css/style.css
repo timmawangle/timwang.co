@@ -228,7 +228,7 @@ header h1 {
     grid-template-rows: 400px 400px;
     grid-row-gap: 7.5vw;
     justify-content: center;
-    padding-bottom: 15vh;
+    padding-bottom: 120px;
 }
 
 .container img {
@@ -254,7 +254,12 @@ img {
     opacity: 1;
 }
 
+.info h1 {
+    font-weight: 500;
+}
+
 .info {
+    font-weight: 400;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -280,6 +285,7 @@ img {
     font-size: 30px;
     margin-top: 2.5rem;
     margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 .about_me p {
@@ -385,6 +391,7 @@ img {
 
 .projects h1 {
     font-family: "Poppins", sans-serif;
+    font-weight: 500;
     font-size: 25px;
     margin: 2rem 0px 0px;
 }
@@ -736,6 +743,10 @@ img {
         transition: opacity .4s ease-in, visibility .4s ease-in;
     }
 
+    .info p {
+        font-size: 12px;
+    }
+
     .nav_links {
         display: flex;
         flex-direction: row;
@@ -933,7 +944,7 @@ footer {
     bottom: 0px;
     width: 100vw;
     padding: 30px 0px;
-    padding-left: 15%;
+    padding-left: 10%;
     line-height: 2.2em;
     color: rgb(54, 54, 54);
     margin-top: auto;
@@ -948,6 +959,7 @@ footer h1 {
 
 footer h2 {
     font-size: 23px;
+    font-weight: 500;
 }
 
 .social-menu ul {
