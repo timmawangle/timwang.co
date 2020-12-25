@@ -293,6 +293,7 @@ img {
     line-height: 28px;
     font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
+    color: #676767;
 }
 
 .about_me a {
@@ -405,8 +406,17 @@ img {
     margin: 10px 0 40px;
 }
 
+.text_one p {
+    color: #676767;
+}
+
 .info_1 {
     padding: 40px 20px 40px;
+    color: #676767;
+}
+
+.info_1 p b {
+    color: #363636;
 }
 
 .text_challenge {
@@ -414,8 +424,16 @@ img {
     grid-row: 3 / 4;
 }
 
+.text_challenge p {
+    color: #676767;
+}
+
 .text_goals {
     padding-top: 40px;
+}
+
+.text_goals p {
+    color: #676767;
 }
 
 .mockup {
@@ -424,12 +442,21 @@ img {
 
 .info_2 {
     padding-bottom: 40px;
+    color: #676767;
+}
+
+.info_2 p b {
+    color: #363636;
 }
 
 .ht_final {
     object-fit: cover;
     height: 100%;
     width: auto;
+}
+
+.text_two p {
+    color: #676767;
 }
 
 .ht_final_header {
@@ -1059,7 +1086,7 @@ footer {
 footer h1 {
     font-size: 14px;
     font-weight: 500;
-    color:rgb(117, 117, 117);
+    color: #676767;
     line-height: 1em;
 }
 
