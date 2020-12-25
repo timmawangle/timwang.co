@@ -340,35 +340,6 @@ img {
     height: 100%;
 }
 
-/*
-.links {
-    text-align: center;
-    height: auto;
-    padding: 10px 20px;
-    margin: 20px;
-    padding-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.links a {
-    background-color: cornflowerblue;
-    color: rgb(54, 54, 54);
-    text-decoration: none;
-    padding: 15px 70px;
-    border-radius: 4px;
-    margin: 20px;
-    color: white;
-    font-size: 13px;
-}
-
-.links a:hover {
-    background-color: rgba(100, 148, 237, 0.75);
-}
-*/
-
 /* PROJECTS PAGE */
 .projects {
     font-family: 'Noto Sans', sans-serif;
@@ -379,14 +350,41 @@ img {
     justify-content: center;
 }
 
+.ht_container {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2.5em 2.5em 100px;
+    justify-content: center;
+}
+
+.ht_container h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 10px 0px 30px;
+}
+
+.ht_container p {
+    padding: 16px;
+    padding-left: 0px;
+    line-height: 28px;
+}
+
+.info_2 h1 {
+    padding: 0;
+    margin: 10px 0 15px;
+}
+
+.info_2 p {
+    padding-left: 20px;
+}
+
 .projects img {
     max-width: 100%;
     height: 250px;
     object-fit: cover;
-}
-
-.ht {
-    margin-top: 150px;
 }
 
 .projects h1 {
@@ -422,6 +420,19 @@ img {
 
 .info_2 {
     padding-bottom: 40px;
+}
+
+.ht_final {
+    object-fit: cover;
+    height: 100%;
+    width: auto;
+}
+
+.ht_final_header {
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    height: 300px;
 }
 
 .flip-card {
@@ -488,7 +499,7 @@ img {
 
     .projects {
         grid-template-columns: 1fr 1fr; /*350px 350px*/
-        grid-template-rows: auto auto auto auto auto auto auto; /* 400px auto auto auto auto 400px auto;*/
+        grid-template-rows: auto auto auto auto auto; /* 400px auto auto auto auto 400px auto;*/
         grid-column-gap: 1.5rem;
         margin: 0;
         padding: 0 40px 0;
@@ -548,6 +559,13 @@ img {
         grid-column: 1 / 3;
         grid-row: 4 / 5;
         padding: 40px 0px 40px;
+        left: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        max-width: 100vw;
+        position: relative;
+        right: 50%;
+        width: 100vw;
     }
 
     .text_goals {
@@ -557,27 +575,40 @@ img {
         margin: 0;
     }
 
-    .ht {
-        grid-column: 1 / 2;
-        margin: 0;
-        padding: 0;
-        height: 90%;
-        width: 100%;
+    .ht_container h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 30px;
+        margin: 40px 0px 40px;
+        grid-column: 1 / 3;
+    }
+
+    .ht_container p {
+        padding: 16px;
+        padding-left: 0;
+        line-height: 28px;
     }
 
     .info_2 {
-        padding-bottom: 0;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        grid-column: 1 / 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
     .info_2 h1 {
-        font-size: 25px;
+        padding: 0;
+        margin: 10px 0 40px;
+        font-size: 30px;
     }
 
     .text_two {
         grid-column: 1 / 3;
         margin: 0;
         padding: 0;
-        padding-top: 50px;
+        padding-top: 40px;
     }
 
     .hamburger {
@@ -724,6 +755,34 @@ img {
         background-color: #EEEEEE;
         height: 600px;
     }
+
+    .ht_final {
+        object-fit: cover;
+        height: 100%;
+        width: auto;
+    }
+    
+    .ht_final_header {
+        display: flex;
+        justify-content: center;
+        background-color: #EEEEEE;
+        height: 600px;
+    }
+
+    .ht_container {
+        grid-template-columns: 1fr 1fr; /*350px 350px*/
+        grid-template-rows: auto auto auto auto auto; /* 400px auto auto auto auto 400px auto;*/
+        grid-column-gap: 1.5rem;
+        margin: 0;
+        padding: 0 40px 0;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+
 }
 
 @media screen and (min-width: 1050px) {
@@ -732,6 +791,10 @@ img {
     }
 
     .projects {
+        grid-template-columns: 500px 500px;
+    }
+
+    .ht_container {
         grid-template-columns: 500px 500px;
     }
 
