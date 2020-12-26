@@ -347,8 +347,6 @@ img {
 
 /* PROJECTS PAGE */
 .projects {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 15px;
     display: grid;
     grid-template-columns: 1fr;
     padding: 2.5em 2.5em 200px;
@@ -367,7 +365,7 @@ img {
 .ht_container h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 30px;
     margin: 10px 0px 30px;
 }
 
@@ -375,6 +373,8 @@ img {
     padding: 16px;
     padding-left: 0px;
     line-height: 28px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .info_2 h1 {
@@ -395,7 +395,7 @@ img {
 .projects h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 30px;
     margin: 2rem 0px 0px;
 }
 
@@ -403,11 +403,20 @@ img {
     padding: 16px;
     padding-left: 0px;
     line-height: 28px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .text_one h1 {
     padding: 0;
     margin: 10px 0 40px;
+}
+
+.text_one h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .text_one p {
@@ -421,11 +430,22 @@ img {
 
 .info_1 p b {
     color: #363636;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .text_challenge {
     padding: 40px 0 40px;
     grid-row: 3 / 4;
+}
+
+.text_challenge h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .text_challenge p {
@@ -436,6 +456,13 @@ img {
     padding-top: 40px;
 }
 
+.text_goals h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
 .text_goals p {
     color: #676767;
 }
@@ -444,12 +471,69 @@ img {
     padding: 40px 0 40px;
 }
 
+.wireframes_2 {
+    padding-bottom: 40px;
+}
+
+.wireframes_2 p {
+    color: #676767;
+}
+
+.final_design {
+    padding: 40px 0 40px;
+}
+
+.final_design h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.final_design p {
+    color: #676767;
+}
+
+.home_image img, .profile_image img, .cart_image img {
+    height: 100%;
+}
+
+.home_page_bullets, .profile_page_bullets, .cart_page_bullets {
+    padding: 40px 30px 80px;
+    line-height: 28px;
+    color: #676767;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bobile_full {
+    padding-bottom: 40px;
+}
+
+.reflections {
+    padding-top: 40px;
+}
+
+.reflections h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.reflections p {
+    color: #676767;
+}
+
 .info_2 {
     padding-bottom: 40px;
     color: #676767;
 }
 
 .info_2 p b {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
     color: #363636;
 }
 
@@ -457,6 +541,13 @@ img {
     object-fit: cover;
     height: 100%;
     width: auto;
+}
+
+.text_two h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 .text_two p {
@@ -534,7 +625,7 @@ img {
 
     .projects {
         grid-template-columns: 1fr 1fr; /*350px 350px*/
-        grid-template-rows: auto auto auto auto auto; /* 400px auto auto auto auto 400px auto;*/
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto; /* 400px auto auto auto auto 400px auto;*/
         grid-column-gap: 1.5rem;
         margin: 0;
         padding: 0 40px 0;
@@ -546,6 +637,12 @@ img {
 
     .projects h1 {
         margin: 0px;
+    }
+
+    .projects p {
+        font-size: 15px;
+        line-height: 35px;
+        font-weight: 400;
     }
 
     .projects img {
@@ -572,14 +669,22 @@ img {
         font-size: 25px;
     }
 
+    .info_1 p b {
+        font-size: 20px;
+    }
+
     .text_one {
         padding-top: 40px;
         grid-column: 1 / 3;
     }
 
     .text_one h1 {
-        font-size: 30px;
+        font-size: 35px;
         margin-bottom: 80px;
+    }
+
+    .text_one h2 {
+        font-size: 20px;
     }
 
     .text_challenge {
@@ -589,9 +694,13 @@ img {
         padding-bottom: 40px;
     }
 
+    .text_challenge h3 {
+        font-size: 20px;
+    }
+
     .mockup {
         grid-column: 1 / 3;
-        grid-row: 4 / 5;
+        grid-row: 5 / 6;
         padding: 40px 0px 40px;
         left: 50%;
         margin-left: -50vw;
@@ -604,15 +713,87 @@ img {
 
     .text_goals {
         grid-column: 1 / 3;
-        grid-row: 5 / 6;
-        padding: 40px 0 150px;
+        grid-row: 4 / 5;
+        padding: 40px 0 40px;
         margin: 0;
+    }
+
+    .text_goals h4 {
+        font-size: 20px;
+    }
+
+    .wireframes_2 {
+        padding-top: 40px;
+        grid-column: 1 / 3;
+    }
+
+    .final_design {
+        grid-column: 1 / 3;
+        padding: 40px 0 0;
+    }
+
+    .final_design h3 {
+        font-size: 20px;
+    }
+
+    .home_image {
+        padding: 40px 0 40px;
+    }
+
+    .home_page_bullets {
+        font-size: 15px;
+        line-height: 35px;
+        font-weight: 400;
+    }
+
+    .profile_image {
+        padding: 60px 0 60px;
+        grid-column: 2 / 3;
+    }
+
+    .cart_image {
+        padding: 40px 0 40px;
+    }
+
+    .profile_page_bullets {
+        grid-column: 1 / 2;
+        grid-row: 9 / 10;
+        font-size: 15px;
+        line-height: 35px;
+        font-weight: 400;
+    }
+
+    .cart_page_bullets {
+        font-size: 15px;
+        line-height: 35px;
+        font-weight: 400;
+    }
+
+    .bobile_full {
+        grid-column: 1 / 3;
+        padding-top: 40px;
+        left: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        max-width: 100vw;
+        position: relative;
+        right: 50%;
+        width: 100vw;
+    }
+
+    .reflections {
+        grid-column: 1 / 3;
+        padding: 40px 0 120px;
+    }
+
+    .reflections h3 {
+        font-size: 20px;
     }
 
     .ht_container h1 {
         font-family: "Poppins", sans-serif;
         font-weight: 500;
-        font-size: 30px;
+        font-size: 35px;
         margin: 40px 0px 40px;
         grid-column: 1 / 3;
     }
@@ -620,7 +801,9 @@ img {
     .ht_container p {
         padding: 16px;
         padding-left: 0;
-        line-height: 28px;
+        font-size: 15px;
+        line-height: 35px;
+        font-weight: 400;
     }
 
     .info_2 {
@@ -638,11 +821,19 @@ img {
         font-size: 30px;
     }
 
+    .info_2 p b {
+        font-size: 20px;
+    }
+
     .text_two {
         grid-column: 1 / 3;
         margin: 0;
         padding: 0;
         padding-top: 40px;
+    }
+
+    .text_two h2 {
+        font-size: 20px;
     }
 
     .hamburger {
