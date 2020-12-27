@@ -281,7 +281,7 @@ img {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     grid-column-gap: 1rem;
-    padding: 2.5em;
+    padding: 2em;
     padding-top: 0;
     padding-bottom: 0.5em;
 }
@@ -296,6 +296,7 @@ img {
 .about_me p {
     padding: 1rem;
     padding-left: 0;
+    padding-right: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 28px;
@@ -308,7 +309,7 @@ img {
 }
 
 .tim {
-    max-width: 100%;
+    width: 100%;
     height: 400px;
     object-fit: cover;
 }
@@ -352,7 +353,7 @@ img {
 .projects {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 2.5em 2.5em 200px;
+    padding: 2.5em 2em 200px;
     justify-content: center;
 }
 
@@ -375,6 +376,7 @@ img {
 .ht_container p {
     padding: 16px;
     padding-left: 0px;
+    padding-right: 0px;
     line-height: 28px;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
@@ -405,6 +407,7 @@ img {
 .projects p {
     padding: 16px;
     padding-left: 0px;
+    padding-right: 0px;
     line-height: 28px;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
@@ -940,7 +943,7 @@ img {
         height: 500px;
         */
         height: 100%;
-        width: auto;
+        max-width: auto;
     }
 
     .view_resume {
