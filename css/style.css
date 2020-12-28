@@ -606,7 +606,7 @@ img {
 .bobile_final_header {
     display: flex;
     justify-content: center;
-    background-color: #EEEEEE;
+    background-color: #C3D7FF;
     height: 300px;
 }
 
@@ -984,7 +984,7 @@ img {
     .bobile_final_header {
         display: flex;
         justify-content: center;
-        background-color: #EEEEEE;
+        background-color: #C3D7FF;
         height: 600px;
     }
 
@@ -997,7 +997,7 @@ img {
     .ht_final_header {
         display: flex;
         justify-content: center;
-        background-color: #EEEEEE;
+        background-color: #FFDBDC;
         height: 600px;
     }
 
