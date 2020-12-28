@@ -164,7 +164,7 @@ header h1 a {
 }
 
 .intro p b {
-    color: #88afff;
+    color: cornflowerblue;
     font-weight: 500;
 }
 
@@ -183,7 +183,7 @@ header h1 a {
 }
 
 .learn_more_bio {
-    background-color: #88afff;
+    background-color: cornflowerblue;
     text-decoration: none;
     text-align: center;
     line-height: 30px;
@@ -216,7 +216,7 @@ header h1 a {
 }
 
 .more_projects a {
-    color: #88afff;
+    color: cornflowerblue;
     text-decoration: none;
 }
 
@@ -335,7 +335,7 @@ img {
 }
 
 .view_resume:hover {
-    background-color: #88afff;
+    background-color: cornflowerblue;
     color: white;
     transition: background-color 0.2s ease-in-out;
 }
@@ -1188,7 +1188,7 @@ input[type="checkbox"] {
 }
 
 input[type="submit"] {
-    background-color: #88afff;
+    background-color: cornflowerblue;
     color: white;
     padding: 14px 20px;
     margin: 30px 0px;
