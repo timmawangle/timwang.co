@@ -157,10 +157,22 @@ header h1 a {
     animation-timing-function: ease-out;
 }
 
-
+/*
 @keyframes slide {
     from {bottom: -50px; opacity: 0;}
     to {bottom: 0px; opacity: 1;}
+}
+*/
+
+@keyframes slide {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .intro p b {
