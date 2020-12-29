@@ -206,6 +206,16 @@ header h1 a {
     }
 }
 
+@keyframes load_appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
 .learn_more_bio {
     background-color: cornflowerblue;
     text-decoration: none;
@@ -313,6 +323,10 @@ img {
     padding: 2em;
     padding-top: 0;
     padding-bottom: 0.5em;
+
+    animation-name: load_appear;
+    animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .about_me h1 {
@@ -384,6 +398,10 @@ img {
     grid-template-columns: 1fr;
     padding: 2.5em 2em 200px;
     justify-content: center;
+
+    animation-name: load_appear;
+    animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .ht_container {
@@ -393,6 +411,10 @@ img {
     grid-template-columns: 1fr;
     padding: 2.5em 2.5em 100px;
     justify-content: center;
+
+    animation-name: load_appear;
+    animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .ht_container h1 {
@@ -594,6 +616,11 @@ img {
     justify-content: center;
     background-color: #EEEEEE;
     height: 300px;
+
+
+    animation-name: load_appear;
+    animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .flip-card {
@@ -637,6 +664,10 @@ img {
     justify-content: center;
     background-color: #C3D7FF;
     height: 300px;
+
+    animation-name: load_appear;
+    animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 @media screen and (min-width: 600px) {
@@ -973,10 +1004,6 @@ img {
         */
         height: 100%;
         max-width: auto;
-    }
-
-    .view_resume {
-        
     }
 
     .g-block {
