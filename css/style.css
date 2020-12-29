@@ -326,7 +326,7 @@ img {
 
     animation-name: load_appear;
     animation-duration: 1000ms;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
 }
 
 .about_me h1 {
@@ -401,7 +401,7 @@ img {
 
     animation-name: load_appear;
     animation-duration: 1000ms;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
 }
 
 .ht_container {
@@ -414,7 +414,7 @@ img {
 
     animation-name: load_appear;
     animation-duration: 1000ms;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
 }
 
 .ht_container h1 {
@@ -620,7 +620,7 @@ img {
 
     animation-name: load_appear;
     animation-duration: 1000ms;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
 }
 
 .flip-card {
@@ -667,7 +667,7 @@ img {
 
     animation-name: load_appear;
     animation-duration: 1000ms;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
 }
 
 @media screen and (min-width: 600px) {
@@ -1198,7 +1198,7 @@ form {
 
     animation-name: load_appear;
     animation-duration: 1000ms;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
 }
 
 legend {
