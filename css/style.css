@@ -1256,6 +1256,7 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
     width: 100%;
+    border-radius: 4px;
 }
 
 input[type="submit"]:hover {
@@ -1311,7 +1312,7 @@ footer h1 {
 }
 
 footer h2 {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 500;
 }
 
