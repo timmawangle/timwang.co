@@ -197,12 +197,14 @@ header h1 a {
 @keyframes delay_load {
     0% {
         opacity: 0;
+        pointer-events: none;
     }
     50% {
         opacity: 0;
     }
     100% {
         opacity: 1;
+        pointer-events: all;
     }
 }
 
