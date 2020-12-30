@@ -327,7 +327,7 @@ img {
     padding-bottom: 0.5em;
 
     animation-name: load_appear;
-    animation-duration: 1000ms;
+    animation-duration: 500ms;
     animation-timing-function: ease-out;
 }
 
@@ -402,7 +402,7 @@ img {
     justify-content: center;
 
     animation-name: load_appear;
-    animation-duration: 1000ms;
+    animation-duration: 500ms;
     animation-timing-function: ease-out;
 }
 
@@ -415,7 +415,7 @@ img {
     justify-content: center;
 
     animation-name: load_appear;
-    animation-duration: 1000ms;
+    animation-duration: 500ms;
     animation-timing-function: ease-out;
 }
 
@@ -621,7 +621,7 @@ img {
 
 
     animation-name: load_appear;
-    animation-duration: 1000ms;
+    animation-duration: 500ms;
     animation-timing-function: ease-out;
 }
 
@@ -668,7 +668,7 @@ img {
     height: 300px;
 
     animation-name: load_appear;
-    animation-duration: 1000ms;
+    animation-duration: 500ms;
     animation-timing-function: ease-out;
 }
 
@@ -1199,7 +1199,7 @@ form {
     padding: 60px;
 
     animation-name: load_appear;
-    animation-duration: 1000ms;
+    animation-duration: 500ms;
     animation-timing-function: ease-out;
 }
 
