@@ -1321,12 +1321,11 @@ footer h2 {
 
     padding: 0;
     margin: 0;
-    margin-top: 5px;
     display: flex;
 }
 .social-menu ul li {
     list-style: none;
-    margin: 0 10px;
+    margin: 0 3px;
 }
 .social-menu ul li:nth-child(1) {
     margin-left: 0px;
@@ -1334,8 +1333,8 @@ footer h2 {
 
 .social-menu ul li .fa {
     color: #000000;
-    font-size: 25px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 40px;
     transition: .5s;
 }
 .social-menu ul li .fa:hover {
@@ -1348,17 +1347,17 @@ footer h2 {
 .social-menu ul li a {
     position: relative;
     display: block;
-    width: 50px;
-    height: 50px;
+    left: -3px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: white;
     text-align: center;
     transition: 0.5s;
     transform: translate(0,0px);
-    box-shadow: 0px 7px 5px rgba(163, 163, 163, 0.5);
 }
 .social-menu ul li a:hover {
-    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    transform: rotate(0deg) skew(0deg) translate(0, -6px);
 }
 .social-menu ul li:nth-child(1) a:hover {
     background-color: #0B65C2;
