@@ -157,13 +157,6 @@ header h1 a {
     animation-timing-function: ease-out;
 }
 
-/*
-@keyframes slide {
-    from {bottom: -50px; opacity: 0;}
-    to {bottom: 0px; opacity: 1;}
-}
-*/
-
 @keyframes slide {
     from {
         transform: translateY(50px);
@@ -210,11 +203,33 @@ header h1 a {
 
 @keyframes load_appear {
     0% {
-        opacity: 0;
+        opacity: 0.2;
     }
     100% {
         opacity: 1;
         transform: none;
+    }
+}
+
+@keyframes slide_right {
+    0% {
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide_left {
+    0% {
+        transform: translateX(20px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
 
