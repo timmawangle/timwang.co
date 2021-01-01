@@ -254,7 +254,8 @@ header h1 a {
 }
 
 .learn_more_bio:hover {
-    opacity: 0.9;
+    /*opacity: 0.9;*/
+    background-color: rgb(87, 138, 233);
 }
 
 .more_buttons a {
@@ -273,6 +274,7 @@ header h1 a {
 
 .more_projects a:hover {
     text-decoration: underline;
+    color: rgb(87, 138, 233);
 }
 
 .container {
@@ -1275,7 +1277,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    opacity: 0.8;
+    background-color: rgb(87, 138, 233);
 }
 
 /* Change styles for span and cancel button on extra small screens */
