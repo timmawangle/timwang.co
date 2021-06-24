@@ -49,7 +49,9 @@ html,body
 }
 
 .nav_links {
-    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-transform: none;
     font-size: 20px;
 
     position: fixed;
@@ -82,7 +84,7 @@ html,body
     text-decoration: none;
     padding: 6px 12px;
     border-radius: 4px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .nav_item {
@@ -94,12 +96,12 @@ html,body
 .nav_item a:hover, a:focus {
     border: none;
     background-color: #EEEEEE;
-    color: cornflowerblue;
+    color: #9dcc9f;
     transition: background-color 0.2s ease-in;
 }
 
 .nav_item a.current {
-    color: cornflowerblue;
+    color: #9dcc9f;
     border: none;
     /*font-weight: 600;
     background-color: #dbdbdb;
@@ -141,13 +143,16 @@ header h1 a {
     padding: 60px 10% 15px;
     color: rgb(54, 54, 54);
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
+    /* font-family: 'Playfair Display', serif; */
 }
 
 .intro p {
     color: rgb(54, 54, 54);
     margin: 0px 10%;
     font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
 }
 
 .intro h2, .intro p {
@@ -169,7 +174,7 @@ header h1 a {
 }
 
 .intro p b {
-    color: cornflowerblue;
+    color: #9dcc9f;
     font-weight: 500;
 }
 
@@ -234,7 +239,7 @@ header h1 a {
 }
 
 .learn_more_bio {
-    background-color: cornflowerblue;
+    background-color: #9dcc9f;
     text-decoration: none;
     text-align: center;
     line-height: 30px;
@@ -255,7 +260,7 @@ header h1 a {
 
 .learn_more_bio:hover {
     /*opacity: 0.9;*/
-    background-color: rgb(87, 138, 233);
+    background-color: #9dcc9fe7;
 }
 
 .more_buttons a {
@@ -268,14 +273,97 @@ header h1 a {
 }
 
 .more_projects a {
-    color: cornflowerblue;
+    color: #9dcc9f;
     text-decoration: none;
 }
 
 .more_projects a:hover {
     text-decoration: underline;
-    color: rgb(87, 138, 233);
+    color: #9dcc9f;
 }
+
+
+.project_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.leapers_card_image video, .leapers_card_image img {
+    width: 90vw;
+    height: auto;
+}
+
+.leapers_card_text {
+    font-family: "Inter", sans-serif;
+}
+
+.project_card a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.project_card a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.leapers_card_text {
+    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 25px;
+}
+
+.leapers_card_text h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.leapers_card_text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+.ptags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    padding-left: 0px;
+}
+
+.ptags p {
+    margin: 5px;
+    background-color: #0b27463d;
+    border-radius: 6px;
+    margin-left: 0px;
+    padding: 0px 10px;
+    color: #0B2746;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#bob p{
+    color: #FF2C5E;
+    background-color: #ff2c5d41;
+}
+
+#histe p{
+    color: #ca10bb;
+    background-color: #ca10ba23;
+}
+
+.read_more {
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
 
 .container {
     position: relative;
@@ -333,6 +421,45 @@ img {
     transition: opacity .4s ease-in, visibility .4s ease-in;
 }
 
+@import url('https://css.gg/chevron-down.css');
+
+.chev_container {
+    position: absolute;
+    bottom: -110px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.gg-chevron-down {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,2));
+    color: rgb(54, 54, 54);
+    --ggs: 1.5;
+    width: 22px;
+    height: 22px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+    justify-content: center;
+}
+
+.gg-chevron-down::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    left: 4px;
+    top: 2px;
+}
+
 /* ABOUT.HTML */
 .about_me {
     display: grid;
@@ -367,7 +494,7 @@ img {
 }
 
 .about_me a {
-    color: cornflowerblue;
+    color: #9dcc9f;
 }
 
 .tim {
@@ -396,7 +523,7 @@ img {
 }
 
 .view_resume:hover {
-    background-color: cornflowerblue;
+    background-color: #9dcc9f;
     color: white;
     transition: background-color 0.2s ease-in-out;
 }
@@ -706,6 +833,7 @@ img {
         color: rgb(54, 54, 54);
         margin: 0px 15%;
         font-size: 25px;
+        padding-top: 10px;
     }
 
     .projects {
@@ -941,7 +1069,8 @@ img {
         flex-direction: row;
         align-items: center;
         display: flex;
-        font-size: 12px;
+        font-size: 14px;
+        font-weight: 400;
         padding-left: 20px;
 
         clip-path: none;
@@ -954,7 +1083,7 @@ img {
         transform: scale(1.2);
         position: relative;
         left: 13%;
-        top:20px;
+        top: 20px;
     }
 
     .container {
@@ -1094,7 +1223,11 @@ img {
 
 @media screen and (min-width: 1050px) {
     .intro {
-        height: 600px;
+        /*height: 600px;*/
+        /* height: 760px; */
+        height: 100%;
+        position: relative;
+        /*font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;*/
     }
 
     .projects {
@@ -1110,26 +1243,140 @@ img {
     }
 
     .intro h2 {
-        padding-top: 150px;
-        font-size: 60px;
+        /*padding-top: 150px;*/
+        padding-top: 200px;
+        font-size: 80px; /*60*/
     }
 
     .intro p {
         font-size: 30px;
+        /*line-height: 35px;*/
+        /*font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;*/
+        font-family: 'Inter', sans-serif;
+        font-weight: 300;
         line-height: 35px;
     }
 
     .more_buttons {
-        transform: scale(1.5);
+        transform: scale(1.75);
         position: relative;
-        left: 25%;
-        top: 70px;
+        /*left: 25%;*/
+        left: 35%;
+        /*top: 70px;*/
+        /*top: 90px; #2*/ 
+        top: 120px;
     }
 
     .container {
-        margin: 0px 10% 0px;
-        grid-template-columns: auto auto;
+        margin: 0px 15% 0px;
+        grid-template-columns: auto;
         grid-template-rows: auto;
+    }
+
+    .proj_container {
+        margin-top: 130px;
+        padding-top: 10px;
+    }
+
+    .project_card {
+        display: flex;
+        flex-direction: row;
+        font-family: 'Inter', sans-serif;
+        margin: 100px 11%;
+        align-items: center;
+    }
+
+    .project_card a:link {
+        text-decoration: none;
+        color: black;
+    }
+
+    .project_card a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+    .leapers_card {
+        display: flex;
+        border: black;
+        border-style: solid;
+        border-width: 0px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .leapers_card_image {
+        width: 600px;
+        height: 450px;
+        flex: 1;
+        border-radius: 6px;
+    }
+
+    .leapers_card_image video {
+        border-radius: 6px;
+        width: 600px;
+        height: 450px;
+    }
+
+    .leapers_card_image img {
+        border-radius: 6px;
+        width: 600px;
+        height: 450px;
+    }
+
+    .leapers_card_text {
+        padding-bottom: 60px;
+        padding-top: 40px;
+        padding-left: 90px;
+        padding-right: 0px;
+        flex: 1;
+        line-height: 25px;
+    }
+
+    .leapers_card_text h2 {
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+
+    .leapers_card_text h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 20px 0px;
+    }
+
+    .ptags {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        padding-left: 0px;
+    }
+
+    .ptags p {
+        margin: 5px;
+        background-color: #0b27463d;
+        border-radius: 6px;
+        margin-left: 0px;
+        padding: 0px 10px;
+        color: #0B2746;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    #bob p{
+        color: #FF2C5E;
+        background-color: #ff2c5d41;
+    }
+
+    #histe p{
+        color: #ca10bb;
+        background-color: #ca10ba23;
+    }
+
+    .read_more {
+        margin-top: 100px;
+        text-decoration: underline;
     }
 
     img {
@@ -1137,7 +1384,7 @@ img {
         height: auto;
     }
 
-    .img-one:hover, .img-two:hover {
+    .img-one:hover, .img-two:hover, .img-three:hover, .img-four:hover {
         padding: 0px;
         transition: none;
     }
@@ -1266,7 +1513,7 @@ input[type="checkbox"] {
 }
 
 input[type="submit"] {
-    background-color: cornflowerblue;
+    background-color: #9dcc9f;
     color: white;
     padding: 14px 20px;
     margin: 30px 0px;
@@ -1277,7 +1524,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: rgb(87, 138, 233);
+    background-color: rgb(156, 164, 179);
 }
 
 /* Change styles for span and cancel button on extra small screens */
@@ -1313,19 +1560,23 @@ footer {
     height: 250px;
     position: relative;
     bottom: 0px;
-    width: 100vw;
+    width: 80%;
     padding: 30px 0px;
-    padding-left: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 0;
     line-height: 2.2em;
     color: rgb(54, 54, 54);
     margin-top: auto;
 }
 
 footer h1 {
-    font-size: 13px;
+    font-size: 11px;
     font-weight: 300;
-    color: #888888;
+    color: #adadad;
     line-height: 1em;
+    margin-top: 70px;
+    text-align: center;
 }
 
 footer h2 {
@@ -1364,7 +1615,7 @@ footer h2 {
 .social-menu ul li a {
     position: relative;
     display: block;
-    left: -3px;
+    left: -10px;
     width: 40px;
     height: 40px;
     border-radius: 50%;

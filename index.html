@@ -12,7 +12,7 @@
         </script>        
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" type="image/png" href="imgs/logo.png"/>
+        <link rel="shortcut icon" type="image/png" href="imgs/logo 1.png"/>
         <link rel="stylesheet" type="text/css" href="css/html5reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700" rel="stylesheet">
@@ -20,8 +20,14 @@
         <link rel="stylesheet" href="https://use.typekit.net/puh2hbn.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <title>Tim Wang</title>
+        <link href='https://css.gg/chevron-down.css' rel='stylesheet'>
+        <title>Tim Wang – Portfolio</title>
     </head>
     <body>
         <div class = "skip"><a href = "#main">Skip to Main Content</a></div>
@@ -45,7 +51,7 @@
 
         <main class = "main" id = "main" tabindex = "0">
             <div class = "intro">
-                <h2>Hey, I'm Tim</h2>
+                <h2>Hi there, I'm Tim</h2>
                 <p>I'm an aspiring <b>UI/UX Designer</b> passionate about creating <b>seamless</b> and <b>memorable</b> experiences that inspire creativity</p>
 
                 <div class = "more_buttons">
@@ -55,31 +61,77 @@
                         <a href = "about.html">learn more about me...</a>
                     </div>
                 </div>
+
+                <div class="chev_container"><a href="index.html#top_proj"><div class="gg-chevron-down"></div></a></div>
             </div>
-        
-            <div class = "container" id = "container">              
-                <div class="img-one">
-                    <a href = "projects.html#boba"><img src="imgs/Blue Bobile Small.jpg" alt="Bubble Tea Mobile Order Mockup"/></a>
-                    <div class = "info">
-                        <h1>Bobile Concept</h1>
+
+            <div class="proj_container" id="top_proj">
+                <!-- SPH Course Planner -->
+                <div class = "project_card">
+                    <div class = "leapers_card_image">
+                        <!-- <img src="imgs/SPH Mkup.png" alt="Course Planner Mockup"/>-->
+                        <video width="600" height="450" autoplay loop muted>
+                            <source src="imgs/Comp 1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class = "leapers_card_text">
+                        <h2>User Experience Designer</h2>
+                        <h1>School of Public Health Course Planner</h1>
+                        <div class = "ptags">
+                            <p>UI Design</p>
+                            <p>UX Research</p>
+                        </div>
                         <br>
-                        <p>A streamlined interface <br>that modernizes how <br>bubble tea is ordered</p>
+                        <p>Redesigned a web-based course planning application that allows University of Michigan School of Public Health Masters Students to plan, review, and share their degree track</p>
+                        <a href = "projects.html"><div class = "read_more">Read more ➔</div></a>
                     </div>
                 </div>
-                <div class="img-two">
-                    <a href = "projects.html#ht"><img src="imgs/Pink HT2.jpg" alt="History Terminator Browser Mockup"/></a>
-                    <div class = "info">
-                        <h1>History Terminator</h1>
+
+                <!-- Bobile -->
+                <div class = "project_card">
+                    <div class = "leapers_card_image">
+                        <img src="imgs/Blue Bobile Small.jpg" alt="Bobile Mockup"/>
+                        <!-- <video width="600" height="450" autoplay loop muted>
+                            <source src="imgs/Comp 1.mp4" type="video/mp4">
+                        </video> -->
+                    </div>
+                    <div class = "leapers_card_text">
+                        <h2>Personal UI Design Project</h2>
+                        <h1>Bobile – Mobile Order Bubble Tea App</h1>
+                        <div class = "ptags" id = "bob">
+                            <p>UI Design</p>
+                        </div>
                         <br>
-                        <p>A one-click solution to privacy</p>
+                        <p>A self led user interface design project aimed at helping local, family-owned bubble tea shops operate more efficiently and contact-free amidst COVID-19</p>
+                        <a href = "projects.html#boba"><div class = "read_more">Read more ➔</div></a>
+                    </div>
+                </div>
+
+                <!-- History Terminator -->
+                <div class = "project_card">
+                    <div class = "leapers_card_image">
+                        <img src="imgs/Pink HT2.jpg" alt="HT Mockup"/>
+                        <!-- <video width="600" height="450" autoplay loop muted>
+                            <source src="imgs/Comp 1.mp4" type="video/mp4">
+                        </video> -->
+                    </div>
+                    <div class = "leapers_card_text">
+                        <h2>Personal Programming Project</h2>
+                        <h1>History Terminator</h1>
+                        <div class = "ptags" id = "histe">
+                            <p>UI Design</p>
+                            <p>Programming</p>
+                        </div>
+                        <br>
+                        <p>Programmed and designed a Google Chrome extension that allows users to quickly clean their internet browsing history and protect their local privacy on shared devices</p>
+                        <a href = "projects.html#ht"><div class = "read_more">Read more ➔</div></a>
                     </div>
                 </div>
             </div>
         </main>
         
         <footer>
-            <h1>Developed by Tim Wang 2020 &copy</h1>
-            <h2>Connect with me</h2>
+            <h2>Connect with me! ✌</h2>
             <div class="social-menu">
                 <ul>
                     <li><a href="https://linkedin.com/in/timothy-wang-b685a2196/" target=_blank><i class="fa fa-linkedin"></i></a></li>
@@ -88,6 +140,7 @@
                     <li><a href="https://www.instagram.com/timmawangle/?hl=en" target=_blank><i class="fa fa-instagram"></i></a></li>
                 </ul>
             </div>
+            <h1>designed and coded with ☕</h1>
         </footer>
 
         <script src = "app.js"></script>
