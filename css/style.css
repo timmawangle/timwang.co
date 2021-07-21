@@ -268,7 +268,7 @@ header h1 a {
 
 .learn_more_bio:hover {
     /*opacity: 0.9;*/
-    background-color: #9dcc9fe7;
+    background-color: #9dcc9fe1;
 }
 
 .more_buttons a {
@@ -372,6 +372,9 @@ header h1 a {
     text-decoration: underline;
 }
 
+.read_more:hover {
+    color: #9dcc9f;
+}
 
 .container {
     position: relative;
@@ -1262,7 +1265,7 @@ img {
     .intro h2 {
         /*padding-top: 150px;*/
         /* padding-top: 200px; */
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         font-size: 80px; /*60*/
         margin-right: 0px;
 
