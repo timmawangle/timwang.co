@@ -1073,7 +1073,50 @@ img {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 5px 35px;
+        padding: 35px 65px;
+        margin: 0px;
+    }
+
+    #bobile_header {
+        background-color: #C3D7FF;
+        animation-name: load_appear;
+        animation-duration: 500ms;
+        animation-timing-function: ease-out;
+    }
+
+    #bobile_nav_links {
+        background-color: #C3D7FF;
+        animation-name: load_appear;
+        animation-duration: 500ms;
+        animation-timing-function: ease-out;
+    }
+
+    #ht_header {
+        background-color: #FFDBDC;
+        animation-name: load_appear;
+        animation-duration: 500ms;
+        animation-timing-function: ease-out;
+    }
+
+    #ht_nav_links {
+        background-color: #FFDBDC;
+        animation-name: load_appear;
+        animation-duration: 500ms;
+        animation-timing-function: ease-out;
+    }
+
+    #bobile_nav_links .nav_item a:hover, a:focus {
+        border: none;
+        background-color: #00000009;
+        color: #ffffff;
+        transition: background-color 0.2s ease-in;
+    }
+
+    #ht_nav_links .nav_item a:hover, a:focus {
+        border: none;
+        background-color: #00000009;
+        color: #ffffff;
+        transition: background-color 0.2s ease-in;
     }
 
     .nav_links {
@@ -1084,6 +1127,7 @@ img {
         width: 330px;
         flex-direction: row;
         align-items: center;
+        justify-content: flex-end;
         display: flex;
         font-size: 14px;
         font-weight: 400;
@@ -1255,7 +1299,7 @@ img {
     }
 
     header {
-        padding: 5px 35px;
+        padding: 35px 65px;
     }
     
     .intro_text {

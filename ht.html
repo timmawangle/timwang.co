@@ -9,7 +9,7 @@
             gtag('js', new Date());
 
             gtag('config', 'G-Y3305PJJ73');
-        </script>
+        </script>       
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" type="image/png" href="imgs/logo 1.png"/>
@@ -28,12 +28,12 @@
         <link rel="stylesheet" href="https://use.typekit.net/puh2hbn.css">
         <link rel="stylesheet" href="https://use.typekit.net/puh2hbn.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <title>About - Tim Wang</title>
+        <title>Bobile - Tim Wang</title>
     </head>
     <body>
         <div class = "skip"><a href = "#main">Skip to Main Content</a></div>
 
-        <header>
+        <header id = "ht_header">
             <h1><a href="https://timwang.co">TW</a></h1>
             <div class = "hamburger">
                 <div class = "line"></div>
@@ -41,24 +41,41 @@
                 <div class = "line"></div>
             </div>
             <nav>
-                <ul class = "nav_links">
+                <ul class = "nav_links" id = "ht_nav_links">
                     <li class = "nav_item"><a href = "index.html">Home</a></li>
-                    <li class = "nav_item"><a href = "about.html" class = "current">About</a></li>
+                    <li class = "nav_item"><a href = "about.html">About</a></li>
                     <li class = "nav_item"><a href = "contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
-        <main class = "main" id = "main" tabindex = "0">
-            <div class = "about_me">
-                <img class = "tim" src="imgs/about.JPG" alt="me! Tim Wang!"/>
-                <div class = "about-text">
-                    <h1>Nice to meet you! 👋</h1>
-                    <p>I'm Tim (he/him), a third year student at the University of Michigan's <a href = 'https://www.si.umich.edu/' target='_blank'>School of Information</a> studying User Experience Design and Computer Science. I was recently admitted to be a part of the school’s <a href = 'https://www.si.umich.edu/programs/engaged-learning/design-and-innovation' target='_blank'>Design Clinic program</a> where I will be working in a team as a UX Designer to research and design a course planner application for University of Michigan students.</p>
-                    <p>The process of creating and designing have been passions of mine since I was young. From customizing Lego figurines to drawing to putting way too much time into perfecting a Powerpoint presentation for school, creativity and design have always been a part of me. After dipping my toes in computer science, I recently began my UX design journey this year. For me, UX design allows me to apply my eye for visual design and passion of creation with my joy for critical-thinking. Just as I was inspired to create by others, I strive to create beautiful and empathetic designs that inspire others to reach their full creative potential too. I’m currently seeking full time User Experience Design internship positions that will foster learning and challenge me to become a better UX Designer.
+        <main class = "creations" id = "main" tabindex = "0">
+            <div class="ht_final_header"><img src="imgs/Pink HT2.jpg" id = "ht" class="ht_final" alt="history terminator UI"/></div>
+            <div class=ht_container>
+                <h1>History Terminator</h1>
+                <div class = "info_2">
+                    <p><b>Duration:</b> <br> < 1 Week</p>
+                    <p><b>Concepts:</b> <br>
+                        Creating Extensions<br>
+                        Functionality<br>
+                        Usability<br>
+                        Visual Design
                     </p>
-                    <p>In my free time, you can find me on the Rift, weightlifting at the gym, or whiffing every hit in spikeball.</p>
-                    <div class="view_resume"><a href="https://drive.google.com/file/d/1wZu94nbSOEy0pvYreeSRv8Yf8K3MSChK/view?usp=sharing" target=_blank>Resume</a></div>
+                    <p><b>Tools Used:</b> <br>
+                        HTML<br>
+                        CSS<br>
+                        Google Extension API
+                    </p>
+                </div>
+
+                <div class = "text_two">
+                    <h2>Challenge</h2>
+                    <p>With a time window of just two days, I worked on developing and publishing the Google extension History Terminator. 
+                        It is a simple but powerful extension that allows users to quickly and conveniently clear their browser history and caches with a single click.
+                        Prioritizing user experience, the extension also features an easy to use minimalistic design that declutters the process of clearing history.
+                    </p>
+                    <p>History Terminator was a self-lead project with the goal of learning HTML, CSS, the Google Extension API, 
+                        and overall, how to develop and publish Google extentions. </p>
                 </div>
             </div>
         </main>
