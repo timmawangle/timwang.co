@@ -96,12 +96,12 @@ html,body
 .nav_item a:hover, a:focus {
     border: none;
     background-color: #EEEEEE;
-    color: #9dcc9f;
+    color: #597ff5;
     transition: background-color 0.2s ease-in;
 }
 
 .nav_item a.current {
-    color: #9dcc9f;
+    color: #597ff5;
     border: none;
     /*font-weight: 600;
     background-color: #dbdbdb;
@@ -152,7 +152,7 @@ header h1 a {
     font-size: 45px;
     font-weight: 500;
     /* margin-right: 150px; */
-    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'europa', serif; */
 }
 
 .intro p {
@@ -182,7 +182,7 @@ header h1 a {
 }
 
 .intro p b {
-    color: #9dcc9f;
+    color: #597ff5;
     font-weight: 500;
 }
 
@@ -247,7 +247,7 @@ header h1 a {
 }
 
 .learn_more_bio {
-    background-color: #9dcc9f;
+    background-color: #597ff5;
     text-decoration: none;
     text-align: center;
     line-height: 30px;
@@ -268,7 +268,7 @@ header h1 a {
 
 .learn_more_bio:hover {
     /*opacity: 0.9;*/
-    background-color: #9dcc9fe1;
+    background-color: #597ff5e1;
 }
 
 .more_buttons a {
@@ -281,13 +281,13 @@ header h1 a {
 }
 
 .more_projects a {
-    color: #9dcc9f;
+    color: #597ff5;
     text-decoration: none;
 }
 
 .more_projects a:hover {
     text-decoration: underline;
-    color: #9dcc9f;
+    color: #597ff5;
 }
 
 
@@ -373,7 +373,7 @@ header h1 a {
 }
 
 .read_more:hover {
-    color: #9dcc9f;
+    color: #597ff5;
 }
 
 .container {
@@ -505,7 +505,7 @@ img {
 }
 
 .about_me a {
-    color: #9dcc9f;
+    color: #597ff5;
 }
 
 .tim {
@@ -534,7 +534,7 @@ img {
 }
 
 .view_resume:hover {
-    background-color: #9dcc9f;
+    background-color: #597ff5;
     color: white;
     transition: background-color 0.2s ease-in-out;
 }
@@ -1607,7 +1607,7 @@ input[type="checkbox"] {
 }
 
 input[type="submit"] {
-    background-color: #9dcc9f;
+    background-color: #597ff5;
     color: white;
     padding: 14px 20px;
     margin: 30px 0px;
